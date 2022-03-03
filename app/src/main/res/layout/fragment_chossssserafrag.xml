@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010"
+    tools:context=".fragmentcontroller">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/sssssl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:id="@+id/suptopspace"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"></Space>
+
+            <LinearLayout
+                android:id="@+id/mincontaineraaa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:id="@+id/spacettta"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/adsstextaab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="jzodufhskjfhdjfhlafhdaslkjdfhalkjdhasflkfhdskljfhasflkjsdhfsdlkjfhasflksjhdlajkffhlaiufhsdfjkdshdfjasdhfaksjdfhalsdasldasdlfkjahdflkjsahdfldalskdjfhalskjdfhslkdjfkdahslkdfjhsaldfkjashfdlksjafhklasdjfhslkjdfhaslkdjfhfkfgjdfijgsifdjgoidsfjgdsoifjOIJGFDIJGSOIDFSGJOIFDJGSFIGJDFImklgjdflkgjsñfkgjslfkkdghssfkgjañkdfjalñkdfjañldfkajsñflkasjfñskfjasñlkdfjasñlkdfjasñdlkfjasñdlfksjdñflkajsdñfklasjdfñkdñslkdfjasñdlkfjañsdkfjañsdfkjasñdfaAFAGFjasidasoidjasoidjasoidjasidajsodiajsodiasjdoaisdjaoisdjaoisdjaosidjaosidjasodiajdoaisjdaisjdudfjoijsodifuhsudfhjgufigjijdfoigkjdfoigjdofijgodfigjdfig"
+                    android:textColor="#dddddd"
+                    android:textSize="18sp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <Space
+                android:id="@+id/fiiidsssspace"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:id="@+id/supercontainerfull"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/moooa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="sljdfisjdkfjsfkslkdf"
+                        android:textAllCaps="false"
+                        android:theme="@style/Button.ZStyle"
+                        app:cornerRadius="15dp"
+                        app:strokeColor="#505050"
+                        app:strokeWidth="3dp" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/mooob"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Button"
+                        android:textAllCaps="false"
+                        android:theme="@style/Button.ZStyle"
+                        app:cornerRadius="15dp"
+                        app:strokeColor="#505050"
+                        app:strokeWidth="3dp" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/moooc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Button"
+                        android:textAllCaps="false"
+                        android:theme="@style/Button.ZStyle"
+                        app:cornerRadius="15dp"
+                        app:strokeColor="#505050"
+                        app:strokeWidth="3dp" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/moood"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Button"
+                        android:textAllCaps="false"
+                        android:theme="@style/Button.ZStyle"
+                        app:cornerRadius="15dp"
+                        app:strokeColor="#505050"
+                        app:strokeWidth="3dp" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/moooe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Button"
+                        android:textAllCaps="false"
+                        android:theme="@style/Button.ZStyle"
+                        app:cornerRadius="15dp"
+                        app:strokeColor="#505050"
+                        app:strokeWidth="3dp" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/mooof"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Button"
+                        android:textAllCaps="false"
+                        android:theme="@style/Button.ZStyle"
+                        app:cornerRadius="15dp"
+                        app:strokeColor="#505050"
+                        app:strokeWidth="3dp" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

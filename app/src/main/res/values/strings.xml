@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Conco Languages</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Progreso</string>
+    <string name="title_notifications">Notas</string>
+    <string name="chosenewle">Selecciona un curso para continuar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
